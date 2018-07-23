@@ -3980,7 +3980,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </nodes>
 <levels>
 <level id="showAnimatedBagePostLoginHistory">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </level>
 <level id="showBagePostLoginHistory">
 <enabled>true</enabled>
@@ -3989,7 +3989,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 <enabled>false</enabled>
 </level>
 <level id="showBageOnAppIcon">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </level>
 </levels>
 </param>
