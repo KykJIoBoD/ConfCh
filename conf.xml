@@ -3035,7 +3035,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 <actionInvestmentsBuy>true</actionInvestmentsBuy>
 <actionPIF>true</actionPIF>
 <actionIPP>true</actionIPP>
-</node>
+  </node>
 <node id="node3.online.sberbank.ru">
 <isShowInFinance>true</isShowInFinance>
 <actionInvestmentsBuy>true</actionInvestmentsBuy>
