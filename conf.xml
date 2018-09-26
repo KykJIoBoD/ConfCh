@@ -2953,6 +2953,10 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </node>
 </nodes>
 </param>
+<param name="StaticSourceMerchantPics" description="статресурс для логотипов">
+<type>source</type>
+<link>https://pfm.stat.com/PFM/logos/</link>
+</param>
 <param name="CarLoan" description="Заявка на автокредит">
 <type>setting</type>
 <enabled>true</enabled>
