@@ -4416,24 +4416,28 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
+  <pushLogoTypeUsing>true</pushLogoTypeUsing>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush> 
 <TurnOffOperationPush>true</TurnOffOperationPush>
+  <pushLogoTypeUsing>true</pushLogoTypeUsing>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush> 
 <TurnOffOperationPush>true</TurnOffOperationPush>
+  <pushLogoTypeUsing>true</pushLogoTypeUsing>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush> 
 <TurnOffOperationPush>true</TurnOffOperationPush>
+  <pushLogoTypeUsing>true</pushLogoTypeUsing>
 </node>
 </nodes>
 </param>
