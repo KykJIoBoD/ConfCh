@@ -2954,7 +2954,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </nodes>
 </param>
 <param name="StaticSourceMerchantPics" description="статресурс для логотипов">
-<type>source</type>
+ <type>source</type>
 <link>https://pfm.stat.online.sberbank.ru/PFM/logos/</link>
 </param>
 <param name="CarLoan" description="Заявка на автокредит">
