@@ -4423,7 +4423,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
-<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
+<pushHistoryAvailableInTabbarBank>false</pushHistoryAvailableInTabbarBank>
 <autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 <TurnOffOperationPush>false</TurnOffOperationPush>
   <pushLogoTypeUsing>true</pushLogoTypeUsing>
@@ -4437,7 +4437,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
-<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
+<pushHistoryAvailableInTabbarBank>false</pushHistoryAvailableInTabbarBank>
 <autoTurnOffOperationPush>false</autoTurnOffOperationPush> 
 <TurnOffOperationPush>false</TurnOffOperationPush>
   <pushLogoTypeUsing>true</pushLogoTypeUsing>
