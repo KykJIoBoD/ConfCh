@@ -3645,7 +3645,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 <MonthAmountNBAA>3</MonthAmountNBAA>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<SmartSearch>true</SmartSearch>
+<SmartSearch>false</SmartSearch>
 <NBAA>true</NBAA>
 <SearchHistory>true</SearchHistory>
 <DepthNBAA>60</DepthNBAA>
@@ -3659,7 +3659,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 <MonthAmountNBAA>3</MonthAmountNBAA>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<SmartSearch>true</SmartSearch>
+<SmartSearch>false</SmartSearch>
 <NBAA>true</NBAA>
 <SearchHistory>true</SearchHistory>
 <DepthNBAA>60</DepthNBAA>
