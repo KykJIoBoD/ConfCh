@@ -2434,7 +2434,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>true</enabled>
 <nodes>
 <node id="node0.online.sberbank.ru">
-<enabled>true</enabled>
+<enabled>false</enabled>
 <mainScreen>
 <limit>2147483647</limit>
 <offers>
