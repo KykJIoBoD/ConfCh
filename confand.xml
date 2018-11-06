@@ -3739,8 +3739,8 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <node id="ift-node1.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
+<showNewNotificationEntryPointWS>false</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
@@ -3775,8 +3775,8 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <node id="ift-node2.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
+<showNewNotificationEntryPointWS>false</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
@@ -3811,8 +3811,8 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
+<showNewNotificationEntryPointWS>false</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
@@ -3847,8 +3847,8 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
+<showNewNotificationEntryPointWS>false</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
