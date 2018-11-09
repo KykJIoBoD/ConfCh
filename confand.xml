@@ -3713,7 +3713,7 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <nodes>
 <node id="mobile.sberbank.ru">
 <redesignBunnerTxSuggestion>true</redesignBunnerTxSuggestion>
-<excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9</excludeNotificationTypesFromBadgeInPreLogin>
+<excludeNotificationTypesFromBadgeInPreLogin>2,4,5,6,7,8,9</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
