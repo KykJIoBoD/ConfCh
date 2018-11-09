@@ -3712,7 +3712,7 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 <nodes>
 <node id="mobile.sberbank.ru">
-<redesignBunnerTxSuggestion>true</redesignBunnerTxSuggestion>
+<redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
 <excludeNotificationTypesFromBadgeInPreLogin>2,4,5,6,7,8,9</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
