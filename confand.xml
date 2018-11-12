@@ -3585,6 +3585,26 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <param name="MobileBankSettings" description="Настройки для подключения МБ в МП">
 <type>list</type>
 <nodes>
+<node id="greenfield1.online.sberbank.ru">
+<targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
+<cacheEnabled>true</cacheEnabled>
+<showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
+<mobileBankFromSettings>true</mobileBankFromSettings>
+<turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
+<turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
+<efsMobileBank82>true</efsMobileBank82>
+<showNotificationWS>true</showNotificationWS>
+<turnOffFullTariffEnabledByVersion>
+<version from="8.4" value="true"/>
+</turnOffFullTariffEnabledByVersion>
+<showNotificationBanner>
+<version from="8.4" value="true"/>
+</showNotificationBanner>
+<useMobileBankExtendedRequests>
+<version from="8.5" value="true"/>
+</useMobileBankExtendedRequests>
+<enableChangePhoneNumberInMB>true</enableChangePhoneNumberInMB>
+</node>
 <node id="mobile.sberbank.ru">
 <targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 <cacheEnabled>true</cacheEnabled>
