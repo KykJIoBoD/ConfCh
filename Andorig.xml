@@ -3714,28 +3714,45 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <node id="mobile.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
-<pushPreEnrichment>true</pushPreEnrichment>
+<pushPreEnrichment>false</pushPreEnrichment>
 <updateTokenForegroundService>true</updateTokenForegroundService>
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newNotificationDesign>true</newNotificationDesign>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
-<requestPermissionToReadSMS>...</requestPermissionToReadSMS>
-<reactivateMainPushNotifications>...</reactivateMainPushNotifications>
-<showNewAttributesInPushContent>...</showNewAttributesInPushContent>
-<pushLogoTypeUsing>...</pushLogoTypeUsing>
-<showUniversalPushNotification>...</showUniversalPushNotification>
+<requestPermissionToReadSMS>
+<version from="8.5" value="true"/>
+</requestPermissionToReadSMS>
+<reactivateMainPushNotifications>
+<version from="8.6" value="true"/>
+</reactivateMainPushNotifications>
+<showNewAttributesInPushContent>
+<version from="8.5" value="true"/>
+</showNewAttributesInPushContent>
+<pushLogoTypeUsing>
+<version from="8.6" value="true"/>
+</pushLogoTypeUsing>
+<showUniversalPushNotification>
+<version from="8.7" value="true"/>
+</showUniversalPushNotification>
 <preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
-<snackBarWithLastTPU>...</snackBarWithLastTPU>
+<snackBarWithLastTPU>
+<version from="8.7" value="true"/>
+</snackBarWithLastTPU>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
-</node>
+ <forcedHistoryQuery>
+ <version from="9.0" value="false"/>
+ </forcedHistoryQuery>
+ <forcedHistiryQueryIfNoHistory>
+  <version from="9.0" value="true"/>
+ </forcedHistiryQueryIfNoHistory>
+ </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
@@ -3771,6 +3788,12 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 </snackBarWithLastTPU>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
+  <forcedHistoryQuery>
+ <version from="9.0" value="false"/>
+ </forcedHistoryQuery>
+ <forcedHistiryQueryIfNoHistory>
+  <version from="9.0" value="true"/>
+ </forcedHistiryQueryIfNoHistory>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -3807,6 +3830,12 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 </snackBarWithLastTPU>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
+  <forcedHistoryQuery>
+ <version from="9.0" value="false"/>
+ </forcedHistoryQuery>
+ <forcedHistiryQueryIfNoHistory>
+  <version from="9.0" value="true"/>
+ </forcedHistiryQueryIfNoHistory>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -3843,6 +3872,12 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 </snackBarWithLastTPU>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
+  <forcedHistoryQuery>
+ <version from="9.0" value="false"/>
+ </forcedHistoryQuery>
+ <forcedHistiryQueryIfNoHistory>
+  <version from="9.0" value="true"/>
+ </forcedHistiryQueryIfNoHistory>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -3879,6 +3914,12 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 </snackBarWithLastTPU>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
+  <forcedHistoryQuery>
+ <version from="9.0" value="false"/>
+ </forcedHistoryQuery>
+ <forcedHistiryQueryIfNoHistory>
+  <version from="9.0" value="true"/>
+ </forcedHistiryQueryIfNoHistory>
 </node>
 <node id="node4.online.sberbank.ru">
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
