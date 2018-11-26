@@ -3742,7 +3742,7 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 </showUniversalPushNotification>
 <preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 <snackBarWithLastTPU>
-<version from="9.9" value="true"/>
+<version from="10.0" value="true"/>
 </snackBarWithLastTPU>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>25</snackBarDisplayTime>
