@@ -3740,7 +3740,7 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <showUniversalPushNotification>
 <version from="8.7" value="true"/>
 </showUniversalPushNotification>
-<preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
+<preloginTargetTapNotificationEnabled>false</preloginTargetTapNotificationEnabled>
 <snackBarWithLastTPU>
 <version from="10.0" value="true"/>
 </snackBarWithLastTPU>
