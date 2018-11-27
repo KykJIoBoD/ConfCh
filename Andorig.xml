@@ -3846,7 +3846,7 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>false</alternativePushSettingTexts>
-<pushPreEnrichment>true</pushPreEnrichment>
+<pushPreEnrichment>false</pushPreEnrichment>
 <updateTokenForegroundService>true</updateTokenForegroundService>
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newNotificationDesign>true</newNotificationDesign>
