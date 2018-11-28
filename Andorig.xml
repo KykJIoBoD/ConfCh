@@ -3716,7 +3716,7 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>false</showNewNotificationEntryPointWS>
-<doNotShowOldNotificationEntryPoint>true</doNotShowOldNotificationEntryPoint>
+<doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
