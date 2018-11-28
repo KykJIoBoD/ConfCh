@@ -3715,7 +3715,8 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showNewNotificationEntryPointWS>false</showNewNotificationEntryPointWS>
+<doNotShowOldNotificatioEntryPoint>true</doNotShowOldNotificatioEntryPoint>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
