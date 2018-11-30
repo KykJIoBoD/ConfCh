@@ -2190,7 +2190,7 @@ The entered ID is already in use in the system. Enter a different value
 <hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -2545,7 +2545,7 @@ The entered ID is already in use in the system. Enter a different value
 <pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
-<productNavigationBarMod>2</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <UFSHost>pfl-psi.efstst.sigma.sbrf.ru:443</UFSHost>
 <coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
