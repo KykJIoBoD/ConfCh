@@ -6079,6 +6079,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
+<showUniversalPushNotification>true</showUniversalPushNotification>
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
@@ -6090,6 +6091,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
+  <showUniversalPushNotification>true</showUniversalPushNotification>
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
@@ -6100,6 +6102,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+  <showUniversalPushNotification>true</showUniversalPushNotification>
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
@@ -6111,6 +6114,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+  <showUniversalPushNotification>true</showUniversalPushNotification>
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
