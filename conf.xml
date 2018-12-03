@@ -2190,7 +2190,7 @@ The entered ID is already in use in the system. Enter a different value
 <hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>0</productNavigationBarMod>
+<productNavigationBarMod>1</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
