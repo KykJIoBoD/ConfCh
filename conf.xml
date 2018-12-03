@@ -6058,6 +6058,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="mobile.sberbank.ru">
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <buttonToPostLogin>false</buttonToPostLogin>
+<showAlertBeforTPUDisable>true</showAlertBeforTPUDisable>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
