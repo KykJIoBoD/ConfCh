@@ -5269,7 +5269,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <EntryPointInHistory>true</EntryPointInHistory>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<SmartSearch_8.5>false</SmartSearch_8.5>
+<SmartSearch_8.5>true</SmartSearch_8.5>
 <BlockExamples>true</BlockExamples>
 <BlockRecent>true</BlockRecent>
 <BlockSuggest>true</BlockSuggest>
@@ -5282,7 +5282,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <EntryPointInHistory>true</EntryPointInHistory>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<SmartSearch_8.5>false</SmartSearch_8.5>
+<SmartSearch_8.5>true</SmartSearch_8.5>
 <BlockExamples>true</BlockExamples>
 <BlockRecent>true</BlockRecent>
 <BlockSuggest>true</BlockSuggest>
@@ -5295,7 +5295,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <EntryPointInHistory>true</EntryPointInHistory>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<SmartSearch_8.5>false</SmartSearch_8.5>
+<SmartSearch_8.5>true</SmartSearch_8.5>
 <BlockExamples>true</BlockExamples>
 <BlockRecent>true</BlockRecent>
 <BlockSuggest>true</BlockSuggest>
@@ -5308,7 +5308,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <EntryPointInHistory>true</EntryPointInHistory>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<SmartSearch_8.5>false</SmartSearch_8.5>
+<SmartSearch_8.5>true</SmartSearch_8.5>
 <BlockExamples>true</BlockExamples>
 <BlockRecent>true</BlockRecent>
 <BlockSuggest>true</BlockSuggest>
