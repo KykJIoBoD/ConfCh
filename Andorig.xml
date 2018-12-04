@@ -3712,10 +3712,11 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 <nodes>
 <node id="mobile.sberbank.ru">
+<enableButtonBackToNotificationListFromCuteCheque>true</enableButtonBackToNotificationListFromCuteCheque>
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
- <showAlertBeforeTPUDisable>false</showAlertBeforeTPUDisable>
+<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+ <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showNewNotificationEntryPointWS>false</showNewNotificationEntryPointWS>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <newFailedOperationDesign>true</newFailedOperationDesign>
