@@ -3803,6 +3803,12 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
  <forcedHistiryQueryIfNoHistory>
   <version from="9.0" value="true"/>
  </forcedHistiryQueryIfNoHistory>
+ <cardNotificationWithSenderNameAndComment>
+ <version from="9.0" value="true">
+ </cardNotificationWithSenderNameAndComment>
+ <cardNotificationTapShowsDialog>
+   <version from="9.0" value="true">
+  </cardNotificationTapShowsDialog>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -3888,6 +3894,12 @@ http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-se
  <forcedHistiryQueryIfNoHistory>
   <version from="9.0" value="true"/>
  </forcedHistiryQueryIfNoHistory>
+  <cardNotificationWithSenderNameAndComment>
+ <version from="9.0" value="true">
+ </cardNotificationWithSenderNameAndComment>
+ <cardNotificationTapShowsDialog>
+   <version from="9.0" value="true">
+  </cardNotificationTapShowsDialog>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
