@@ -3722,6 +3722,8 @@ https://185.157.96.127:9443/api/sms/confirm
 			<notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 			<nodes>
 				<node id="mobile.sberbank.ru">
+					<showMBFullTarifOfferBannerInNotificationList>true</showMBFullTarifOfferBannerInNotificationList>
+					<showTPUOfferBannerInNotificationList>true</showTPUOfferBannerInNotificationList>
 					<scanActivationWithPush>true</scanActivationWithPush>
 					<enableButtonBackToNotificationListFromCuteCheque>true</enableButtonBackToNotificationListFromCuteCheque>
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -3768,6 +3770,8 @@ https://185.157.96.127:9443/api/sms/confirm
 					</forcedHistiryQueryIfNoHistory>
 				</node>
 				<node id="ift-node1.testonline.sberbank.ru">
+					<showMBFullTarifOfferBannerInNotificationList>true</showMBFullTarifOfferBannerInNotificationList>
+					<showTPUOfferBannerInNotificationList>true</showTPUOfferBannerInNotificationList>
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 					<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 					<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
@@ -3823,6 +3827,8 @@ https://185.157.96.127:9443/api/sms/confirm
                                         </notificationShowWithOperationType>  
 				</node>
 				<node id="ift-node2.testonline.sberbank.ru">
+					<showMBFullTarifOfferBannerInNotificationList>true</showMBFullTarifOfferBannerInNotificationList>
+					<showTPUOfferBannerInNotificationList>true</showTPUOfferBannerInNotificationList>
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 					<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 					<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
@@ -3865,6 +3871,8 @@ https://185.157.96.127:9443/api/sms/confirm
 					</forcedHistiryQueryIfNoHistory>
 				</node>
 				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<showMBFullTarifOfferBannerInNotificationList>true</showMBFullTarifOfferBannerInNotificationList>
+					<showTPUOfferBannerInNotificationList>true</showTPUOfferBannerInNotificationList>
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 					<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 					<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
