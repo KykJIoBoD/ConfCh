@@ -3579,7 +3579,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 			<type>setting</type>
 			<enabled>true</enabled>
 			<confirmURL>
-http://vck-9f7fc-was004-was-node-1.vm.esrt.cloud.sbrf.ru:9083/ext-integration-service-app/tokens/confirmOffer
+https://185.157.96.127:9443/api/sms/confirm
 </confirmURL>
 		</param>
 		<param name="MobileBankSettings" description="Настройки для подключения МБ в МП">
