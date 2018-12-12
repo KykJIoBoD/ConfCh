@@ -5,7 +5,7 @@
 <enabled>true</enabled>
 <creditReportServiceTutorialEnabled>true</creditReportServiceTutorialEnabled>
 </param>
-<param name="PriorityCardP2PServiceWrongCardsExclude" description="Исключение карт с истекшим сроком действия из списка карт, которые можно выбрать приоритетной">
+<param name="PriorityCardP2PServiceWrongCardsExclude" description="Исключение кар с истекшим сроком действия из списка карт, которые можно выбрать приоритетной">
 <type>setting</type>
 <enabled>true</enabled>
 </param>
