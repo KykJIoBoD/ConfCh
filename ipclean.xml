@@ -2,7 +2,7 @@
 <params>
 <param name="CreditReportService" description="Отчет о кредитной истории">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>true</enabled>\
 <creditReportServiceTutorialEnabled>true</creditReportServiceTutorialEnabled>
 </param>
 <param name="PriorityCardP2PServiceWrongCardsExclude" description="Исключение кар с истекшим сроком действия из списка карт, которые можно выбрать приоритетной">
@@ -5113,7 +5113,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
-<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
+<newRejectAuthorizeAlert>false</newRejectAuthorizeAlert>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showUniversalPushNotification>true</showUniversalPushNotification>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
@@ -5147,7 +5147,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
-<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
+<newRejectAuthorizeAlert>false</newRejectAuthorizeAlert>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showUniversalPushNotification>true</showUniversalPushNotification>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
