@@ -4676,6 +4676,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="NodeTPNDataEnrichment" description="Возможность обогащения данных для ТПУ на разных нодах">
 <type>list</type>
+<nodes>
 <node id="greenfield1.online.sberbank.ru">
 <enabled>true</enabled>
 </node>
