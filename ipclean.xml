@@ -5086,6 +5086,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </node>
 <node id="mobile.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
+<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
@@ -5101,6 +5102,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
+<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -5117,6 +5119,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
+<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -5133,6 +5136,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+<showNewAttributesInPushContent>true</showNewAttributesInPushContent>  
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -5149,6 +5153,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+<showNewAttributesInPushContent>true</showNewAttributesInPushContent>  
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
