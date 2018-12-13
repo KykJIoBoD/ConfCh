@@ -5104,7 +5104,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="ift-node1.testonline.sberbank.ru">
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <buttonToPostLogin>true</buttonToPostLogin>
-<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
+<pushHistoryAvailableInTabbarBank>false</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
@@ -5121,7 +5121,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="ift-node2.testonline.sberbank.ru">
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <buttonToPostLogin>true</buttonToPostLogin>
-<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
+<pushHistoryAvailableInTabbarBank>false</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
@@ -5138,7 +5138,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>  
 <buttonToPostLogin>true</buttonToPostLogin>
-<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
+<pushHistoryAvailableInTabbarBank>false</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
@@ -5155,7 +5155,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>  
 <buttonToPostLogin>true</buttonToPostLogin>
-<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
+<pushHistoryAvailableInTabbarBank>false</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
