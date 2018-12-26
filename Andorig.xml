@@ -4459,7 +4459,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <showUniversalPushNotification>
 <version from="8.7" value="true"/>
 </showUniversalPushNotification>
-<preloginTargetTapNotificationEnabled>false</preloginTargetTapNotificationEnabled>
+<preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 <snackBarWithLastTPU>
 <version from="8.7" value="true"/>
 </snackBarWithLastTPU>
