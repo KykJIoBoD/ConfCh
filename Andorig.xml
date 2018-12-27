@@ -4471,9 +4471,6 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </cardNotificationTapShowsDialog>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>5</snackBarDisplayTime>
-<pushSkipInitialSync>
-<version from="9.2" value="true"/>
-</pushSkipInitialSync>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4518,9 +4515,6 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </cardNotificationTapShowsDialog>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
-<pushSkipInitialSync>
-<version from="9.2" value="true"/>
-</pushSkipInitialSync>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4565,9 +4559,6 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </cardNotificationTapShowsDialog>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
-<pushSkipInitialSync>
-<version from="9.2" value="true"/>
-</pushSkipInitialSync>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4612,9 +4603,6 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </cardNotificationTapShowsDialog>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
-<pushSkipInitialSync>
-<version from="9.2" value="true"/>
-</pushSkipInitialSync>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4659,9 +4647,6 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </cardNotificationTapShowsDialog>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
-<pushSkipInitialSync>
-<version from="9.2" value="true"/>
-</pushSkipInitialSync>
 </node>
 <node id="node4.online.sberbank.ru">
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
