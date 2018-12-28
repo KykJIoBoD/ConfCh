@@ -4424,6 +4424,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </param>
 <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 <type>list</type>
+<pushHistoryScrollBatchSize>15<pushHistoryScrollBatchSize/>
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 <KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>
 <nodes>
@@ -4471,6 +4472,18 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </cardNotificationTapShowsDialog>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>5</snackBarDisplayTime>
+<pushHistoryRequest>
+<version from="9.0" value="true"/>
+</pushHistoryRequest> 
+<requestNotificationHistory>
+<version from="9.0" value="true"/>
+</requestNotificationHistory>
+<forcedHistoryQuery>
+<version from="9.0" value="true"/>
+</forcedHistoryQuery>
+<forcedHistoryQueryIfNoHistory>
+<version from="9.0" value="true"/>
+</forcedHistoryQueryIfNoHistory>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
