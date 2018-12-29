@@ -135,11 +135,11 @@
 <apiv2>true</apiv2>
 </node>
 <node id="node2.online.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 <fatkashow>false</fatkashow>
 <ufsbranches>false</ufsbranches>
 <ufshistory>false</ufshistory>
-<digitalcardshow>false</digitalcardshow>
+<digitalcardshow>true</digitalcardshow>
 <ikaotransliteration>false</ikaotransliteration>
 <apiv2>true</apiv2>
 </node>
@@ -149,6 +149,15 @@
 <ufsbranches>false</ufsbranches>
 <ufshistory>false</ufshistory>
 <digitalcardshow>false</digitalcardshow>
+<ikaotransliteration>false</ikaotransliteration>
+<apiv2>true</apiv2>
+</node>
+<node id="node4.online.sberbank.ru">
+<enabled>true</enabled>
+<fatkashow>false</fatkashow>
+<ufsbranches>false</ufsbranches>
+<ufshistory>true</ufshistory>
+<digitalcardshow>true</digitalcardshow>
 <ikaotransliteration>false</ikaotransliteration>
 <apiv2>true</apiv2>
 </node>
@@ -788,6 +797,12 @@ The entered ID is already in use in the system. Enter a different value
 <allProductsEnabled>true</allProductsEnabled>
 <personalizationEnabled>true</personalizationEnabled>
 </node>
+<node id="ift-node5-mp.testonline.sberbank.ru">
+<enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
+<allProductsEnabled>true</allProductsEnabled>
+<personalizationEnabled>true</personalizationEnabled>
+</node>
 <node id="psinode2.testonline.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
 <mainEntryEnabled>true</mainEntryEnabled>
@@ -1114,7 +1129,7 @@ The entered ID is already in use in the system. Enter a different value
 </param>
 <param name="PFMTipsCloseEmptyQuizCount" description="Вероятность, с которой пользователю будет предложено выбрать причину скрытия совета">
 <type>setting</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 <value>0.25</value>
 </param>
 <param name="PushPlatformID" description="URL серверов Push-платформы">
@@ -1443,10 +1458,7 @@ The entered ID is already in use in the system. Enter a different value
 </shortText>
 <longText>
 <![CDATA[
-С 28 апреля по 30 апреля мы проводим технологические работы по преобразованию региональной сети банка, в связи с чем в Сбербанк Онлайн будут действовать ограничения:
-]]>
-<![CDATA[
-· 28 апреля с 22:00 до 01:00 29 апреля по московскому времени недоступны операции по счетам (вклады, металлические счета): переводы между счетами, валютно-обменные операции, формирование выписок; · 29 апреля с 01:00 до 07:00 по московскому времени Сбербанк Онлайн будет полностью недоступен (невозможен вход); · 29 апреля с 07:00 до 14:00 по московскому времени недоступны: история операций, диалоги, работа с ранее созданными шаблонами и интернет-заказами, ранее установленные настройки профиля; · 29 апреля с 07:00 до 04:00 30 апреля по московскому времени сумма полной задолженности по кредиту будет актуальна на дату предыдущего входа в Сбербанк Онлайн. Подробнее с информацией о влиянии работ по преобразованию региональной сети банка вы можете ознакомиться на [www.sberbank.ru](http://www.sberbank.ru/techbreak) или позвонив по бесплатному номеру 8 800 100-74-05.
+С 28 апреля по 30 апреля мы проводим технологические работы по преобразованию региональной сети банка, в связи с чем в Сбербанк Онлайн будут действовать ограничения: · 28 апреля с 22:00 до 01:00 29 апреля по московскому времени недоступны операции по счетам (вклады, металлические счета): переводы между счетами, валютно-обменные операции, формирование выписок; · 29 апреля с 01:00 до 07:00 по московскому времени Сбербанк Онлайн будет полностью недоступен (невозможен вход); · 29 апреля с 07:00 до 14:00 по московскому времени недоступны: история операций, диалоги, работа с ранее созданными шаблонами и интернет-заказами, ранее установленные настройки профиля; · 29 апреля с 07:00 до 04:00 30 апреля по московскому времени сумма полной задолженности по кредиту будет актуальна на дату предыдущего входа в Сбербанк Онлайн. Подробнее с информацией о влиянии работ по преобразованию региональной сети банка вы можете ознакомиться на [www.sberbank.ru](http://www.sberbank.ru/techbreak) или позвонив по бесплатному номеру 8 800 100-74-05.
 ]]>
 </longText>
 </importantInfo>
@@ -2077,7 +2089,7 @@ The entered ID is already in use in the system. Enter a different value
 <criminalRecord>true</criminalRecord>
 <UFSHost>ift.testefs.sberbank.ru:443</UFSHost>
 <LoanDetailInfo>true</LoanDetailInfo>
-<EarlyLoanRepaymentClaim>true</EarlyLoanRepaymentClaim>
+<EarlyLoanRepaymentClaim>false</EarlyLoanRepaymentClaim>
 <privacyPolicy>true</privacyPolicy>
 <overseasTransfer>true</overseasTransfer>
 <AutotransferUpdateStatus>true</AutotransferUpdateStatus>
@@ -2261,6 +2273,9 @@ The entered ID is already in use in the system. Enter a different value
 <param name="integrationPlatform" description="">
 <type>list</type>
 <nodes>
+<node id="greenfield2.online.sberbank.ru">
+<startSessionUFS7>true</startSessionUFS7>
+</node>
 <node id="mobile.sberbank.ru">
 <startSessionUFS7>true</startSessionUFS7>
 </node>
@@ -2276,7 +2291,7 @@ The entered ID is already in use in the system. Enter a different value
 <pathUFSToMigrate>/sm-uko/v2/session/create</pathUFSToMigrate>
 </node>
 <node id="ift-node5-mp.testonline.sberbank.ru">
-<serviceSessionForUFS6AndUFS7>true</serviceSessionForUFS6AndUFS7>
+<serviceSessionForUFS6AndUFS7>false</serviceSessionForUFS6AndUFS7>
 <startSessionUFS7>true</startSessionUFS7>
 </node>
 </nodes>
@@ -2579,7 +2594,7 @@ The entered ID is already in use in the system. Enter a different value
 <param name="nfcTokenManagement" description="Управление жизненным циклом токена">
 <type>list</type>
 <enabled>true</enabled>
-<nfcTokensManagementVisa>false</nfcTokensManagementVisa>
+<nfcTokensManagementVisa>true</nfcTokensManagementVisa>
 <nfcTokensManagementMC>true</nfcTokensManagementMC>
 </param>
 <param name="e_invoicing" description="Инвойсинг">
@@ -2723,10 +2738,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>false</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
-<MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
-<MessengerGroupChatBeta>true</MessengerGroupChatBeta>
-<MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
-<MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
+<MessengerGroupChat>true</MessengerGroupChat>
+<MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
 <MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="node1.online.sberbank.ru">
@@ -2749,10 +2764,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>false</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
-<MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
-<MessengerGroupChatBeta>true</MessengerGroupChatBeta>
-<MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
-<MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
+<MessengerGroupChat>true</MessengerGroupChat>
+<MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
 <MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="node2.online.sberbank.ru">
@@ -2775,10 +2790,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>false</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
-<MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
-<MessengerGroupChatBeta>true</MessengerGroupChatBeta>
-<MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
-<MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
+<MessengerGroupChat>true</MessengerGroupChat>
+<MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
 <MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="node3.online.sberbank.ru">
@@ -2801,10 +2816,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>false</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
-<MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
-<MessengerGroupChatBeta>true</MessengerGroupChatBeta>
-<MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
-<MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
+<MessengerGroupChat>true</MessengerGroupChat>
+<MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
 <MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="node4.online.sberbank.ru">
@@ -2827,10 +2842,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>false</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
-<MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
-<MessengerGroupChatBeta>true</MessengerGroupChatBeta>
-<MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
-<MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
+<MessengerGroupChat>true</MessengerGroupChat>
+<MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
 <MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="greenfield1.online.sberbank.ru">
@@ -2853,10 +2868,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>false</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
-<MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
-<MessengerGroupChatBeta>true</MessengerGroupChatBeta>
-<MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
-<MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
+<MessengerGroupChat>true</MessengerGroupChat>
+<MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
 <MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="greenfield2.online.sberbank.ru">
@@ -2879,10 +2894,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>false</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
-<MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
-<MessengerGroupChatBeta>true</MessengerGroupChatBeta>
-<MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
-<MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
+<MessengerGroupChat>true</MessengerGroupChat>
+<MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
 <MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="194.186.207.23">
@@ -2906,12 +2921,15 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>true</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
+<MessengerGroupChat>true</MessengerGroupChat>
 <MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
+<MessengerAddUser>true</MessengerAddUser>
 <MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
 <MessengerGroupChatBeta>true</MessengerGroupChatBeta>
 <MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
 <MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
-<MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="mobile.sberbank.ru">
 <MessengerLogin>true</MessengerLogin>
@@ -2934,11 +2952,15 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>true</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
+<MessengerGroupChat>true</MessengerGroupChat>
+<MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
+<MessengerAddUser>true</MessengerAddUser>
 <MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
 <MessengerGroupChatBeta>true</MessengerGroupChatBeta>
 <MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
 <MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
-<MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="mobile.sberbank.ru:4459">
 <MessengerLogin>true</MessengerLogin>
@@ -2961,12 +2983,15 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>true</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
+<MessengerGroupChat>true</MessengerGroupChat>
 <MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
+<MessengerAddUser>true</MessengerAddUser>
 <MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
 <MessengerGroupChatBeta>true</MessengerGroupChatBeta>
 <MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
 <MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
-<MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="mobile.sberbank.ru:4460">
 <MessengerLogin>true</MessengerLogin>
@@ -2989,7 +3014,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>true</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
+<MessengerGroupChat>true</MessengerGroupChat>
 <MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
 <MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
 <MessengerGroupChatBeta>true</MessengerGroupChatBeta>
 <MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
@@ -3017,12 +3045,15 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>false</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
+<MessengerGroupChat>true</MessengerGroupChat>
 <MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
+<MessengerAddUser>true</MessengerAddUser>
 <MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
 <MessengerGroupChatBeta>true</MessengerGroupChatBeta>
 <MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
 <MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
-<MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <MessengerLogin>true</MessengerLogin>
@@ -3045,11 +3076,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>false</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
+<MessengerGroupChat>true</MessengerGroupChat>
 <MessengerGroupChatView>true</MessengerGroupChatView>
-<MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
-<MessengerGroupChatBeta>true</MessengerGroupChatBeta>
-<MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
-<MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
 <MessengerAddUser>true</MessengerAddUser>
 </node>
 <node id="ift-node5-mp.testonline.sberbank.ru">
@@ -3073,11 +3103,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
 <MessengerLinksEnabled>false</MessengerLinksEnabled>
 <MessengerTyping>true</MessengerTyping>
+<MessengerGroupChat>true</MessengerGroupChat>
 <MessengerGroupChatView>true</MessengerGroupChatView>
-<MessengerCreateGroupChatBeta>true</MessengerCreateGroupChatBeta>
-<MessengerGroupChatBeta>true</MessengerGroupChatBeta>
-<MessengerGroupChatRemoveBeta>true</MessengerGroupChatRemoveBeta>
-<MessengerGroupChatP2PBeta>true</MessengerGroupChatP2PBeta>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
 <MessengerAddUser>true</MessengerAddUser>
 </node>
 </nodes>
@@ -3485,15 +3514,15 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </param>
 <param name="UfsInvestmentsBuyShareHistoryV2" description="История операций по Докупке ПИФ ( Без черновиков)">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="brokerage" description="Брокерское обслуживание">
 <enabled>true</enabled>
 <replenishAccountEnabled>true</replenishAccountEnabled>
 <replenishAccountInMarginCallEnabled>true</replenishAccountInMarginCallEnabled>
-<replenishAccountSearchString>Пополнение Брокерского Счёта</replenishAccountSearchString>
-<replenishAccountAgreementFieldCode>field(S133717540667A133717540630)</replenishAccountAgreementFieldCode>
-<replenishAccountMarketFieldCode>field(S133717540667A133717540638)</replenishAccountMarketFieldCode>
+<replenishAccountSearchString>Пополнение брокерского счета</replenishAccountSearchString>
+<replenishAccountAgreementFieldCode>field(S226884898113A226884895980)</replenishAccountAgreementFieldCode>
+<replenishAccountMarketFieldCode>field(S226884898113A226884895336)</replenishAccountMarketFieldCode>
 <createDocApplicationEnabled>true</createDocApplicationEnabled>
 <brokerageHelpPhoneNumber>900</brokerageHelpPhoneNumber>
 <brokerageProductsAvailableInFinance>true</brokerageProductsAvailableInFinance>
@@ -3526,24 +3555,32 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </node>
 <node id="ift-node5-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
-</node>
-<node id="194.186.207.23">
-<enabled>true</enabled>
-<replenishAccountSearchString>Пополнение Брокерского Счёта</replenishAccountSearchString>
-<replenishAccountAgreementFieldCode>field(S133717540667A133717540630)</replenishAccountAgreementFieldCode>
-<replenishAccountMarketFieldCode>field(S133717540667A133717540638)</replenishAccountMarketFieldCode>
-</node>
-<node id="mobile.sberbank.ru">
-<enabled>true</enabled>
 <replenishAccountSearchString>Пополнение брокерского счета</replenishAccountSearchString>
 <replenishAccountAgreementFieldCode>field(S85396525721A85396525552)</replenishAccountAgreementFieldCode>
 <replenishAccountMarketFieldCode>field(S85396525721A85396525571)</replenishAccountMarketFieldCode>
 </node>
-<node id="10.21.152.7">
+<node id="greenfield1.online.sberbank.ru">
 <enabled>true</enabled>
-<replenishAccountSearchString>Пополнение Брокерского Счёта</replenishAccountSearchString>
-<replenishAccountAgreementFieldCode>field(S133717540667A133717540630)</replenishAccountAgreementFieldCode>
-<replenishAccountMarketFieldCode>field(S133717540667A133717540638)</replenishAccountMarketFieldCode>
+<brokerageReplenishmentSelectionMarkets>true</brokerageReplenishmentSelectionMarkets>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<enabled>true</enabled>
+<brokerageReplenishmentSelectionMarkets>true</brokerageReplenishmentSelectionMarkets>
+</node>
+<node id="node0.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node1.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node2.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node3.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node4.online.sberbank.ru">
+<enabled>true</enabled>
 </node>
 </nodes>
 <markets>
@@ -4424,14 +4461,13 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </param>
 <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 <type>list</type>
-<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
-<KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>   
+<KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>
 <nodes>
 <node id="mobile.sberbank.ru">
-<excludeNotificationTypesFromBadgeInPreLogin>2,3,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<doNotShowOldNotificationEntryPoint>true</doNotShowOldNotificationEntryPoint>
+<excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
@@ -4445,6 +4481,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <scanActivationWithPush>true</scanActivationWithPush>
+<webUrlInUniversalPushNotification>
+<version from="9.2" value="true"/>
+</webUrlInUniversalPushNotification>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
@@ -4471,19 +4510,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="9.0" value="true"/>
 </cardNotificationTapShowsDialog>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
-<snackBarDisplayTime>5</snackBarDisplayTime>
-<pushHistoryRequest>
-<version from="9.0" value="true"/>
-</pushHistoryRequest> 
-<requestNotificationHistory>
-<version from="9.0" value="true"/>
-</requestNotificationHistory>
-<forcedHistoryQuery>
-<version from="9.0" value="true"/>
-</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>
-<version from="9.0" value="true"/>
-</forcedHistoryQueryIfNoHistory>
+<snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4501,6 +4528,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <newNotificationDesign>true</newNotificationDesign>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <scanActivationWithPush>true</scanActivationWithPush>
+<webUrlInUniversalPushNotification>
+<version from="9.2" value="true"/>
+</webUrlInUniversalPushNotification>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
@@ -4530,7 +4560,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
+<excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
@@ -4545,6 +4575,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <newNotificationDesign>true</newNotificationDesign>
 <scanActivationWithPush>true</scanActivationWithPush>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<webUrlInUniversalPushNotification>
+<version from="9.2" value="true"/>
+</webUrlInUniversalPushNotification>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
@@ -4574,7 +4607,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
+<excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
@@ -4589,6 +4622,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <newNotificationDesign>true</newNotificationDesign>
 <scanActivationWithPush>true</scanActivationWithPush>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<webUrlInUniversalPushNotification>
+<version from="9.2" value="true"/>
+</webUrlInUniversalPushNotification>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
@@ -4618,7 +4654,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
+<excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
@@ -4633,6 +4669,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <newNotificationDesign>true</newNotificationDesign>
 <scanActivationWithPush>true</scanActivationWithPush>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<webUrlInUniversalPushNotification>
+<version from="9.2" value="true"/>
+</webUrlInUniversalPushNotification>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
@@ -4681,6 +4720,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <cardNotificationTapShowsDialog>
 <version from="9.0" value="true"/>
 </cardNotificationTapShowsDialog>
+<webUrlInUniversalPushNotification>
+<version from="9.2" value="true"/>
+</webUrlInUniversalPushNotification>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
@@ -4726,6 +4768,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <cardNotificationTapShowsDialog>
 <version from="9.0" value="true"/>
 </cardNotificationTapShowsDialog>
+<webUrlInUniversalPushNotification>
+<version from="9.2" value="true"/>
+</webUrlInUniversalPushNotification>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
@@ -5473,7 +5518,12 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <CCOperationHistory>true</CCOperationHistory>
 <calculateCCDeeplink>true</calculateCCDeeplink>
 <showcaseDeeplink>true</showcaseDeeplink>
-<processVersion>1</processVersion>
+<flowVersions>
+<flowName name="form" version="1"/>
+<flowName name="loanRequest" version="1"/>
+<flowName name="operationHistory" version="1"/>
+<flowName name="default" version="1"/>
+</flowVersions>
 </version>
 <version id="9.1.0">
 <enabled>true</enabled>
@@ -5485,7 +5535,6 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <CCOperationHistory>true</CCOperationHistory>
 <calculateCCDeeplink>true</calculateCCDeeplink>
 <showcaseDeeplink>true</showcaseDeeplink>
-<processVersion>0</processVersion>
 </version>
 <version id="default">
 <enabled>true</enabled>
@@ -5497,7 +5546,12 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <CCOperationHistory>true</CCOperationHistory>
 <calculateCCDeeplink>true</calculateCCDeeplink>
 <showcaseDeeplink>true</showcaseDeeplink>
-<processVersion>0</processVersion>
+<flowVersions>
+<flowName name="form" version="0"/>
+<flowName name="loanRequest" version="0"/>
+<flowName name="operationHistory" version="0"/>
+<flowName name="default" version="0"/>
+</flowVersions>
 </version>
 </CCVersions>
 </param>
@@ -5945,6 +5999,24 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <DoubleAddEmailProfile>true</DoubleAddEmailProfile>
 <CashingPersonalDataProfile>false</CashingPersonalDataProfile>
 </node>
+<node id="ift-node5-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+<PassportProfile>true</PassportProfile>
+<EmailProfile>true</EmailProfile>
+<PhoneNumberProfile>true</PhoneNumberProfile>
+<DriversLicenseProfile>true</DriversLicenseProfile>
+<STSProfile>true</STSProfile>
+<InnProfile>true</InnProfile>
+<SnilsProfile>true</SnilsProfile>
+<HistoryOperationProfile>true</HistoryOperationProfile>
+<EmailEditProfile>true</EmailEditProfile>
+<PhoneNumberEditProfile>true</PhoneNumberEditProfile>
+<SnilsEditProfile>false</SnilsEditProfile>
+<InnEditProfile>false</InnEditProfile>
+<DoubleAddPhoneProfile>true</DoubleAddPhoneProfile>
+<DoubleAddEmailProfile>true</DoubleAddEmailProfile>
+<CashingPersonalDataProfile>false</CashingPersonalDataProfile>
+</node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
 <PassportProfile>true</PassportProfile>
@@ -6300,7 +6372,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <historyBackendFiltersEnabled>true</historyBackendFiltersEnabled>
 <referenceOnOperationAll>true</referenceOnOperationAll>
 <HistoryDetailsMerchantPointOnMap>true</HistoryDetailsMerchantPointOnMap>
-<arrestAndPunishmentOperations>false</arrestAndPunishmentOperations>
+<arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
 </node>
 </nodes>
@@ -6546,7 +6618,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </node>
 <node id="mobile.sberbank.ru">
 <enabled>true</enabled>
-<demandTransfer>true</demandTransfer>
+<demandTransfer>false</demandTransfer>
 <changeDemandTransfer>true</changeDemandTransfer>
 <stornoDemandTransfer>true</stornoDemandTransfer>
 <selfTransfer>true</selfTransfer>
@@ -6892,7 +6964,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="MAppNewBlockingCardProcess" description="Обновленный процесс блокировки карт">
 <type>service</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <enabled>false</enabled>
@@ -6971,7 +7043,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="interTransfer" description="Перевод для получения наличных в Western Union">
 <type>list</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 <serviceProviders>
 <serviceProvider name="Western Union" visibleName="Western Union">
 <nodes>
@@ -7023,16 +7095,16 @@ https://stat.online.sberbank.ru/PhizIC-res/logos/PU/7707089101.jpg
 </icon>
 <nodes>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<catalogID>622173</catalogID>
+<catalogID>624234</catalogID>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<catalogID>621055</catalogID>
+<catalogID>623567</catalogID>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<catalogID>622173</catalogID>
+<catalogID>624234</catalogID>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<catalogID>621055</catalogID>
+<catalogID>623567</catalogID>
 </node>
 </nodes>
 </shortcut>
