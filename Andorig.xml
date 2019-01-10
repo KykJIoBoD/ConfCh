@@ -4459,6 +4459,9 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOffer
 </confirmURL>
 </param>
+<param name="smartSearchNotificationSettings" description="Умный поиск по функциям приложения - настройка уведомлений">   
+<enabled>false</enabled>
+</param> 
 <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 <type>list</type>
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
