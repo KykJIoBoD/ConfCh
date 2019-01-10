@@ -4460,7 +4460,29 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </confirmURL>
 </param>
 <param name="smartSearchNotificationSettings" description="Умный поиск по функциям приложения - настройка уведомлений">   
-<enabled>false</enabled>
+<nodes>
+<node id="mobile.sberbank.ru"> 
+<enabled>true</enabled>
+</node>  
+<node id="mobile.sberbank.ru"> 
+<enabled>true</enabled>
+</node>
+<node id="mobile.sberbank.ru"> 
+<enabled>true</enabled>
+</node> 
+<node id="ift-node1.testonline.sberbank.ru">
+ <enabled>true</enabled>
+ </node>
+<node id="ift-node2.testonline.sberbank.ru">
+ <enabled>true</enabled>
+ </node>
+ <node id="ift-node1-mp.testonline.sberbank.ru">
+ <enabled>true</enabled>
+ </node>
+ <node id="ift-node2-mp.testonline.sberbank.ru">
+ <enabled>true</enabled>
+ </node>
+</nodes> 
 </param> 
 <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 <type>list</type>
