@@ -93,7 +93,7 @@
 </param>
 <param name="LoyaltyPreloginZone" description="Прелогин зона Спасибо">
 <type>list</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 </param>
 <param name="DebitCardAppMP" description="Заказ дебетовых карт">
 <type>service</type>
@@ -397,7 +397,9 @@
 <cardCvv id="Visa Gold"/>
 <cardCvv id="Visa Classic"/>
 <cardCvv id="Visa Digital"/>
+<cardCvv id="Visa Platinum"/>
 <cardCvv id="MasterCard Virtual"/>
+<cardCvv id="Visa Virtual"/>
 </cardCvvList>
 </param>
 <param name="BlockingNotification" description="Карты с выводом нотификации при блокировке">
@@ -421,6 +423,7 @@
 <type>service</type>
 <enabled>true</enabled>
 <cardBlockList>
+<cardBlock id="MasterCard Mass"/>
 <cardBlock id="Visa Classic"/>
 <cardBlock id="MIR"/>
 </cardBlockList>
@@ -442,15 +445,15 @@
 <CardPANRq id="Visa Gold"/>
 <CardPANRq id="Visa Classic"/>
 <CardPANRq id="Visa Digital"/>
+<CardPANRq id="Visa Platinum"/>
+<CardPANRq id="MasterCard Virtual"/>
+<CardPANRq id="Visa Virtual"/>
 </CardPANRqList>
 </param>
 <param name="CardPANMask" description="Определение типов карт для маскирования PAN-номера карты">
 <type>list</type>
 <enabled>true</enabled>
 <CardPANMaskList>
-<CardPANMask id="MasterCard Mass"/>
-<CardPANMask id="Visa Gold"/>
-<CardPANMask id="Visa Classic"/>
 <CardPANMask id="Visa Virtual"/>
 <CardPANMask id="Visa Digital"/>
 <CardPANMask id="MasterCard Virtual"/>
@@ -704,7 +707,7 @@ The entered ID is already in use in the system. Enter a different value
 </param>
 <param name="marketplaceMainScreenOffer" description="Промо-блок банковских продуктов и точка входа на витрину на главном экране МП">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="newmarketplace" description="Витрина 7.3.1">
 <type>setting</type>
@@ -1129,7 +1132,7 @@ The entered ID is already in use in the system. Enter a different value
 </param>
 <param name="PFMTipsCloseEmptyQuizCount" description="Вероятность, с которой пользователю будет предложено выбрать причину скрытия совета">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 <value>0.25</value>
 </param>
 <param name="PushPlatformID" description="URL серверов Push-платформы">
@@ -1797,7 +1800,7 @@ The entered ID is already in use in the system. Enter a different value
 <LoanDetailInfo>true</LoanDetailInfo>
 <EarlyLoanRepaymentClaim>true</EarlyLoanRepaymentClaim>
 <privacyPolicy>true</privacyPolicy>
-<overseasTransfer>true</overseasTransfer>
+<overseasTransfer>false</overseasTransfer>
 <AutotransferUpdateStatus>true</AutotransferUpdateStatus>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>true</showUfsHistoryOperations>
@@ -2187,7 +2190,7 @@ The entered ID is already in use in the system. Enter a different value
 <LoanDetailInfo>true</LoanDetailInfo>
 <EarlyLoanRepaymentClaim>true</EarlyLoanRepaymentClaim>
 <privacyPolicy>true</privacyPolicy>
-<overseasTransfer>true</overseasTransfer>
+<overseasTransfer>false</overseasTransfer>
 <AutotransferUpdateStatus>true</AutotransferUpdateStatus>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showAllHistoryOperations>true</showAllHistoryOperations>
@@ -3030,7 +3033,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerOnlineSuggestions>true</MessengerOnlineSuggestions>
 <MessengerFirework>true</MessengerFirework>
 <MessengerPostcard>true</MessengerPostcard>
-<MessengerPostcardForNonClient>true</MessengerPostcardForNonClient>
+<MessengerPostcardForNonClient>false</MessengerPostcardForNonClient>
 <MessengerPostcardView>true</MessengerPostcardView>
 <MessengerPostcardEditSum>true</MessengerPostcardEditSum>
 <Markdown>true</Markdown>
@@ -3061,7 +3064,34 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerOnlineSuggestions>true</MessengerOnlineSuggestions>
 <MessengerFirework>true</MessengerFirework>
 <MessengerPostcard>true</MessengerPostcard>
-<MessengerPostcardForNonClient>true</MessengerPostcardForNonClient>
+<MessengerPostcardForNonClient>false</MessengerPostcardForNonClient>
+<MessengerPostcardView>true</MessengerPostcardView>
+<MessengerPostcardEditSum>true</MessengerPostcardEditSum>
+<Markdown>true</Markdown>
+<MessengerDocDoc>true</MessengerDocDoc>
+<MessengerChannels>true</MessengerChannels>
+<MessengerOpenDialogWithDeepLink>true</MessengerOpenDialogWithDeepLink>
+<MessengerPinning>true</MessengerPinning>
+<MessengerPostcardNew>true</MessengerPostcardNew>
+<MessengerPostcardViewNew>true</MessengerPostcardViewNew>
+<MessengerPostcardUGC>true</MessengerPostcardUGC>
+<MessengerPostcardUGCTutorial>true</MessengerPostcardUGCTutorial>
+<MessengerPostcardMainTutorial>true</MessengerPostcardMainTutorial>
+<MessengerLinksEnabled>false</MessengerLinksEnabled>
+<MessengerTyping>true</MessengerTyping>
+<MessengerGroupChat>true</MessengerGroupChat>
+<MessengerGroupChatView>true</MessengerGroupChatView>
+<MessengerGroupChatRemove>true</MessengerGroupChatRemove>
+<MessengerGroupChatP2P>true</MessengerGroupChatP2P>
+<MessengerAddUser>true</MessengerAddUser>
+</node>
+<node id="ift-node4-mp.testonline.sberbank.ru">
+<MessengerLogin>true</MessengerLogin>
+<timeToRefreshUnread>20</timeToRefreshUnread>
+<MessengerOnlineSuggestions>true</MessengerOnlineSuggestions>
+<MessengerFirework>true</MessengerFirework>
+<MessengerPostcard>true</MessengerPostcard>
+<MessengerPostcardForNonClient>false</MessengerPostcardForNonClient>
 <MessengerPostcardView>true</MessengerPostcardView>
 <MessengerPostcardEditSum>true</MessengerPostcardEditSum>
 <Markdown>true</Markdown>
@@ -3088,7 +3118,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <MessengerOnlineSuggestions>true</MessengerOnlineSuggestions>
 <MessengerFirework>true</MessengerFirework>
 <MessengerPostcard>true</MessengerPostcard>
-<MessengerPostcardForNonClient>true</MessengerPostcardForNonClient>
+<MessengerPostcardForNonClient>false</MessengerPostcardForNonClient>
 <MessengerPostcardView>true</MessengerPostcardView>
 <MessengerPostcardEditSum>true</MessengerPostcardEditSum>
 <Markdown>true</Markdown>
@@ -4462,39 +4492,15 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 <type>list</type>
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
-<nodes>
-<node id="mobile.sberbank.ru"> 
-<enabled>true</enabled>
-</node>  
-<node id="mobile.sberbank.ru"> 
-<enabled>true</enabled>
-</node>
-<node id="mobile.sberbank.ru"> 
-<enabled>true</enabled>
-</node> 
-<node id="ift-node1.testonline.sberbank.ru">
- <enabled>true</enabled>
- </node>
-<node id="ift-node2.testonline.sberbank.ru">
- <enabled>true</enabled>
- </node>
- <node id="ift-node1-mp.testonline.sberbank.ru">
- <enabled>true</enabled>
- </node>
- <node id="ift-node2-mp.testonline.sberbank.ru">
- <enabled>true</enabled>
- </node>
-</nodes> 
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 <KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>
-<operationTypeList>D4,J</operationTypeList>
 <nodes>
 <node id="mobile.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>false</showNewNotificationEntryPointWS>
+<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
@@ -4506,9 +4512,6 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <scanActivationWithPush>true</scanActivationWithPush>
-<notificationShowWithOperationType>
-<version from="9.1" value="true"/>
-</notificationShowWithOperationType> 
 <webUrlInUniversalPushNotification>
 <version from="9.2" value="true"/>
 </webUrlInUniversalPushNotification>
@@ -4952,6 +4955,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <appmetricaForOldLoans>true</appmetricaForOldLoans>
 <mainDeepLink>true</mainDeepLink>
 <tutorial>true</tutorial>
+<loanRequestPreadopted>true</loanRequestPreadopted>
 </version>
 </loanRequest>
 </released>
@@ -5839,6 +5843,10 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <type>setting</type>
 <enabled>true</enabled>
 </param>
+<param name="P2PExternalBankTransfer2" description="Перевод в другой банк по номеру мобильного телефона">
+<type>setting</type>
+<enabled>true</enabled>
+</param>
 <param name="cuteChequeDetails" description="Возможность отображения детализированного красивого чека для ТПУ">
 <type>setting</type>
 <enabled>true</enabled>
@@ -6234,6 +6242,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryDetailsMerchantPointOnMap>true</HistoryDetailsMerchantPointOnMap>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -6249,6 +6258,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <referenceOnOperationAll>true</referenceOnOperationAll>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -6264,6 +6274,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <referenceOnOperationAll>true</referenceOnOperationAll>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -6279,6 +6290,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <referenceOnOperationAll>true</referenceOnOperationAll>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -6294,6 +6306,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <referenceOnOperationAll>true</referenceOnOperationAll>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="ift-node4-mp.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -6309,6 +6322,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <referenceOnOperationAll>true</referenceOnOperationAll>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="ift-node5-mp.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -6324,6 +6338,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <referenceOnOperationAll>true</referenceOnOperationAll>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="ift-node4-mp.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -6339,6 +6354,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <referenceOnOperation>true</referenceOnOperation>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="ift-node5-mp.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -6354,6 +6370,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <referenceOnOperation>true</referenceOnOperation>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="ift-node4-mp.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -6370,6 +6387,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <referenceOnOperationTutorial>true</referenceOnOperationTutorial>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="ift-node5-mp.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -6386,6 +6404,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <referenceOnOperationTutorial>true</referenceOnOperationTutorial>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 <node id="10.21.152.7">
 <externalOperationForm>true</externalOperationForm>
@@ -6402,6 +6421,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryDetailsMerchantPointOnMap>true</HistoryDetailsMerchantPointOnMap>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <adInHistoryList>true</adInHistoryList>
+<extEpsPaymentForm>true</extEpsPaymentForm>
 </node>
 </nodes>
 </param>
@@ -6646,7 +6666,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </node>
 <node id="mobile.sberbank.ru">
 <enabled>true</enabled>
-<demandTransfer>false</demandTransfer>
+<demandTransfer>true</demandTransfer>
 <changeDemandTransfer>true</changeDemandTransfer>
 <stornoDemandTransfer>true</stornoDemandTransfer>
 <selfTransfer>true</selfTransfer>
@@ -6992,7 +7012,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="MAppNewBlockingCardProcess" description="Обновленный процесс блокировки карт">
 <type>service</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <enabled>false</enabled>
@@ -7013,13 +7033,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>false</enabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <enabled>false</enabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>false</enabled>
@@ -7194,7 +7214,7 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <INNWU>7727067410</INNWU>
 </node>
 <node id="mobile.sberbank.ru">
-<enabled>true</enabled>
+<enabled>false</enabled>
 <INNWU>7727067410</INNWU>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
@@ -7214,7 +7234,7 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <INNWU>7727067410</INNWU>
 </node>
 <node id="10.21.152.7">
-<enabled>true</enabled>
+<enabled>false</enabled>
 <INNWU>7727067410</INNWU>
 </node>
 </nodes>
