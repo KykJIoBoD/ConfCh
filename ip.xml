@@ -29,7 +29,7 @@
 <dashboard>true</dashboard>
 <offers>true</offers>
 <charityPLSpasibo>true</charityPLSpasibo>
-<distanceToNearestSalesPoint>true</distanceToNearestSalesPoint>
+<distanceToNearestSalesPoint>true</distanceToNe\arestSalesPoint>
 </node>
 <node id="node1.online.sberbank.ru">
 <bonusBalance>true</bonusBalance>
@@ -7634,6 +7634,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newPushProccessing>true</newPushProccessing>
 </node>
 <node id="mobile.sberbank.ru">
+<newPushProcessingEnabled>true</newPushProcessingEnabled>
 <buttonToPostLogin>true</buttonToPostLogin>
 <newPushProcessingEnabled>true</newPushProcessingEnabled>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
