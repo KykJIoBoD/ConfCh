@@ -7634,7 +7634,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newPushProccessing>true</newPushProccessing>
 </node>
 <node id="mobile.sberbank.ru">
-<newPushProcessingEnabled>true</newPushProcessingEnabled>
+<webUrlInUniversalPushNotification>false</webUrlInUniversalPushNotification>
 <buttonToPostLogin>true</buttonToPostLogin>
 <newPushProcessingEnabled>true</newPushProcessingEnabled>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
