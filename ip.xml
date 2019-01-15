@@ -41,7 +41,6 @@
 					<offers>true</offers>
 					<charityPLSpasibo>true</charityPLSpasibo>
 					<distanceToNearestSalesPoint>true</distanceToNearestSalesPoint>
-				</node>
 				<node id="node2.online.sberbank.ru">
 					<bonusBalance>true</bonusBalance>
 					<dashboard>true</dashboard>
@@ -2128,7 +2127,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 		</param>
 		<param name="900Permissions" description="">
 			<type>list</type>
-			<pushAlertTimeInterval>86400</pushAlertTimeInterval>
+			<\AlertTimeInterval>86400</pushAlertTimeInterval>
 			<efsMobileBank>true</efsMobileBank>
 			<nodes>
 				<node id="ift-node1.testonline.sberbank.ru">
@@ -7656,6 +7655,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<showUniversalPushNotification>true</showUniversalPushNotification>
 					<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 					<newPushProccessing>true</newPushProccessing>
+					<UsePushAutoDisable>true</UsePushAutoDisable> 
 				</node>
 				<node id="194.186.207.23">
 					<buttonToPostLogin>true</buttonToPostLogin>
