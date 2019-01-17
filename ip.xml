@@ -2127,7 +2127,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 </param>
 <param name="900Permissions" description="">
 <type>list</type>
-<pushAlertTimeInterval>86400</pushAlertTimeInterval>
+<AlertTimeInterval>86400</pushAlertTimeInterval>
 <efsMobileBank>true</efsMobileBank>
 <nodes>
 <node id="ift-node1.testonline.sberbank.ru">
@@ -7644,6 +7644,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showUniversalPushNotification>true</showUniversalPushNotification>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 <newPushProccessing>true</newPushProccessing>
+<webUrlInUniversalPushNotification>false</webUrlInUniversalPushNotification>
 </node>
 <node id="194.186.207.23">
 <buttonToPostLogin>true</buttonToPostLogin>
