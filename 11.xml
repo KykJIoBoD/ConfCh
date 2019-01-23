@@ -20,7 +20,7 @@
 <type>setting</type>
 <enabled>true</enabled>
 </param>
-<param name="TransfersPostcard" description="Прикрепление открытки в p2p переводах">
+<param name="TransfersPostcard" description="Прикрепление отрытки в p2p переводах">
 <type>setting</type>
 <enabled>true</enabled>
 </param>
@@ -4499,7 +4499,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>false</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
