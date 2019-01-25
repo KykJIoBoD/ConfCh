@@ -4496,7 +4496,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>
 <nodes>
 <node id="mobile.sberbank.ru">
-<excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
+<excludeNotificationTypesFromBadgeInPreLogin>-1, 2, 4, 5, 7, 8, 9</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
